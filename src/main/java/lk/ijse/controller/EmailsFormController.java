@@ -40,7 +40,7 @@ public class EmailsFormController {
         properties.put("mail.smtp.port","587");
 
         String myEmail = "rameshlayan4@gmail.com";
-        String password = "uugu cngg vknw jmiu";
+        String password = "uugu cngg vknw jmiu"; //google account create app password
 
         Session session = Session.getInstance(properties, new Authenticator() {
             @Override
